@@ -2,8 +2,6 @@ pages:
   stage: deploy
   script:
     - echo "The site will be deployed to $CI_PAGES_URL"
-    - mkdir public
-    - cp -r build public
   artifacts:
     paths:
       - public
